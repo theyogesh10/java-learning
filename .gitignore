@@ -1,0 +1,161 @@
+
+# Java build output directories
+/bin/
+/out/
+target/
+
+# IntelliJ IDEA specific files
+.idea/
+*.iws
+*.iml
+*.ipr
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/.name
+.idea/modules.xml
+.idea/.idea/
+.idea/caches/
+.idea/index/
+.idea/libraries/
+
+# Eclipse IDE specific files
+.project
+.classpath
+.settings/
+
+# Visual Studio Code specific files
+.vscode/
+
+# Maven build output
+target/
+*.log
+*.h2.db
+
+# Gradle build output
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-wrapper.properties
+*.gradle
+
+# Java-specific files
+*.class
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# System files (macOS, Windows, Linux)
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Compiled Java artifacts (usually generated)
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore logs and temporary database files
+*.log
+*.h2.db
+*.sqlite
+*.db
+*.tmp
+
+# Ignore IDE-specific metadata
+.idea/
+.vscode/
+
+# JRebel configuration (if used)
+.jrebel/
+
+# Ignore archives (generated or downloaded files)
+*.tar.gz
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Docker-related files (if applicable)
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Exclude Maven wrapper (if using)
+.mvn/
+
+# Gradle wrapper jar (this is usually needed, but not if using Gradle wrapper)
+gradle-wrapper.jar
+
+# Ignore JetBrains Rider (if working on .NET with IntelliJ-based tools)
+.idea/
+
+ (if applicable for Android development)# Exclude Android Studio files
+.gradle/
+.idea/
+local.properties
+*.iml
+
+# Ignore Windows installer files
+*.cab
+*.msi
+*.msp
+
+# Ignore application-specific config files
+*.env
+.env.*
+
+# Ignore private key files (SSH/SSL)
+*.key
+*.pem
+*.pfx
+
+# Spring Boot DevTools
+.spring-boot-devtools/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IntelliJ IDEA's artifact build output folder
+.idea/artifacts/
+
+# IntelliJ IDEA saved configurations for database connections, etc.
+.idea/sqlDataSources.xml
+.idea/datasources.xml
+
+# Exclude test output
+test-classes/
+
+# Exclude generated logs or runtime files
+*.log
+*.h2.db
+*.sqlite
+*.db
+*.tmp
+
+# Ignore CI/CD configuration files (if any)
+.gitlab-ci.yml
+.circleci/
+.github/
+Jenkinsfile
+
+# Ignore framework-specific config files (Spring, Micronaut, Quarkus, etc.)
+*.spring-boot-devtools
+**/target/
+**/build/
+
+# Ignore local development tools config (Vagrant, LocalStack, etc.)
+.vagrant/
+.localstack/
+
+# Ignore test-specific files (JUnit, TestNG, etc.)
+testng.xml
+.spock/
+
+# Ignore Spring Boot specific config files (application properties/YML, etc.)
+application-*.properties
+application-*.yml
