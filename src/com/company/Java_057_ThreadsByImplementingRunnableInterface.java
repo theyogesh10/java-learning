@@ -22,7 +22,7 @@ class MyThreadRunnable2 implements Runnable{
 
 public class Java_057_ThreadsByImplementingRunnableInterface {
     public static void main(String[] args) {
-
+        // Types of Creating a Thread
         // 2. Thread By Implementing Runnable Interface
         MyThreadRunnable1 runnableTh1 = new MyThreadRunnable1();
         Thread th1 = new Thread(runnableTh1);

@@ -27,7 +27,7 @@ class MyThread2 extends Thread{
 
 public class Java_056_ThreadsByExtendingThreadClass {
     public static void main(String[] args) {
-
+        // Types of Creating a Thread
         // 1. Thread By Extending Tread Class
         MyThread1 th1 = new MyThread1();
         MyThread2 th2 = new MyThread2();
