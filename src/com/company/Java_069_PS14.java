@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Java_69_PS14 {
+public class Java_069_PS14 {
     public static void main(String[] args) {
         // Problem1
         // int a = 7      // Syntax Error
