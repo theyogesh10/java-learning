@@ -1,12 +1,13 @@
 package com.company;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
 
-public class Java_070_ArrayList {
+public class Java_071_LinkedList {
     public static void main(String[] args) {
 
-        ArrayList<Integer> l1 = new ArrayList<>();
-        ArrayList<Integer> l2 = new ArrayList<>(5);
+        LinkedList<Integer> l1 = new LinkedList<>();
+        LinkedList<Integer> l2 = new LinkedList<>();
         l2.add(45);
         l2.add(42);
         l2.add(48);
@@ -17,9 +18,11 @@ public class Java_070_ArrayList {
         l1.add(6);
         l1.add(0,9);
         l1.add(0,1);
+        l1.addLast(893);
+        l1.addFirst(954);
 
         // l1.addAll(l2);
-         l1.addAll(0,l2);
+        // l1.addAll(0,l2);
         System.out.println(l1.contains(27));
         System.out.println(l1.indexOf(6));
         System.out.println(l1.lastIndexOf(6));
@@ -32,6 +35,5 @@ public class Java_070_ArrayList {
             System.out.print(l1.get(i));
             System.out.print(", ");
         }
-
     }
 }
