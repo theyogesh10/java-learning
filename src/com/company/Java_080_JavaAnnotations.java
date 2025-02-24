@@ -16,7 +16,7 @@ class NewPhone extends Phone{
     }
 }
 
-public class Java_80_JavaAnnotations {
+public class Java_080_JavaAnnotations {
     public static void main(String[] args) {
         @SuppressWarnings("deprecation")
         NewPhone phone = new NewPhone();
